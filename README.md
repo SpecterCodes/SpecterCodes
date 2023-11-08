@@ -1,16 +1,29 @@
-### Hi there 👋
+<h2> Hi, I'm Specter!</h2>
+<p> 自己を向上させることにはまろう</p>
 
-<!--
-**SpecterCodes/SpecterCodes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a><img src="oie.gif" alt="Banner"></a>
+</p>
 
-Here are some ideas to get you started:
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+class CyberSecurity:
+
+    def __init__(self):
+        self.name = "Specter"
+        self.role = "CyberSecurity"
+        self.language_spoken = ["pt_BR", "en_US"]
+        self.code = ["Python", "HTML5", "CSS"]
+
+    def say_hi(self):
+        print("Valeu por estar no meu perfil!!")
+
+
+
+me = CyberSecurity()
+me.say_hi()
+```
+
